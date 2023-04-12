@@ -1082,17 +1082,16 @@ NinetalesEvosMoves:
 
 PikachuEvosMoves:
 ; Evolutions
-	db EV_ITEM, THUNDER_STONE, 1, RAICHU
 	db 0
 ; Learnset
-	db 6, TAIL_WHIP
-	db 8, THUNDER_WAVE
+	db 6, ABSORB
+	db 8, SPORE
 	db 11, QUICK_ATTACK
 	db 15, DOUBLE_TEAM
-	db 20, SLAM
-	db 26, THUNDERBOLT
-	db 33, AGILITY
-	db 41, THUNDER
+	db 20, MEGA_DRAIN
+	db 26, DIG
+	db 33, MINIMIZE
+	db 41, EARTHQUAKE
 	db 50, LIGHT_SCREEN
 	db 0
 

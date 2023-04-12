@@ -417,17 +417,17 @@ GetPal_Pikachu::
 .townOrRoute
 	cp SAFFRON_CITY + 1
 	jr c, .town
-	ld a, PAL_ROUTE - 1
+	ld a, PAL_PINKMON - 1
 .town
 	inc a ; a town's pallete ID is its map ID + 1
 	ret
 
 .PokemonTowerOrAgatha
-	ld a, PAL_GREYMON - 1
+	ld a, PAL_PINKMON - 1
 	jr .town
 
 .caveOrBruno
-	ld a, PAL_CAVE - 1
+	ld a, PAL_PINKMON - 1
 	jr .town
 
 .Lorelei
@@ -435,7 +435,7 @@ GetPal_Pikachu::
 	jr .town
 
 .battleOrTradeCenter
-	ld a, PAL_GREYMON - 1
+	ld a, PAL_PINKMON - 1
 	jr .town
 
 InitPartyMenuBlkPacket:

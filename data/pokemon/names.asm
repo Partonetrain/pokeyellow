@@ -83,7 +83,7 @@ MonsterNames::
 	db "MISSINGNO."
 	db "VULPIX@@@@"
 	db "NINETALES@"
-	db "PIKACHU@@@"
+	db "TINYPOTATO" ;PIKACHU
 	db "RAICHU@@@@"
 	db "MISSINGNO."
 	db "MISSINGNO."
